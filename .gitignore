@@ -1,0 +1,8 @@
+# Built binary (anchored to repo root so it never matches a source dir)
+/tf-unused-vars
+/tuv
+*.test
+coverage.out
+
+# Never ignore fixtures
+!testdata/**
