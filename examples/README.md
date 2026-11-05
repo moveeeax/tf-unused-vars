@@ -6,7 +6,7 @@
 ```console
 $ tf-unused-vars scan ./examples/demo-module
 KIND      NAME         LOCATION
-variable  legacy_flag  examples/demo-module/main.tf:5
+variable  legacy_flag  examples/demo-module/main.tf:6
 
 1 unused declaration(s) found.
 ```
