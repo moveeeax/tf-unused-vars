@@ -82,3 +82,7 @@ The marker on the declaration line (or the line just above it) waives it.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+**Archived on 2026-11-05.** tflint's recommended `terraform_unused_declarations` rule already flags unused variables, locals and data sources, and tflint's `terraform_unused_required_providers` covers providers. The only things this tool adds are the opt-in output check and having no config. Keep it only if the cross-module analysis below (features 1-2) gets built, since tflint lints one module at a time.
